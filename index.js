@@ -3,7 +3,7 @@ const app = express()
 
 
 app.get('/', function (req, res) {
-  res.sendFile(path.resolve("__filename/index.hml"))
+  res.sendFile(path.resolve(index.hml))
 })
 
 

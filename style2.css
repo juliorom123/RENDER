@@ -1,0 +1,199 @@
+body {
+  background-color: rgb(29, 29, 29);
+}
+
+header {
+  background-image: url(../Resouces/banner.png);
+  width: 100%;
+  max-width: 100%;
+  height: 45vh;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}
+
+nav {
+  background-color: rgb(90, 90, 90);
+  padding: 20px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  /* Centra los elementos del menú */
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  /* Espacio entre elementos del menú */
+  align-items: center;
+  /* Centra verticalmente los elementos */
+  max-width: 800px;
+  /* Máximo ancho para el menú */
+}
+
+.menu a {
+  padding: 0 10px;
+  /* Espaciado entre elementos del menú */
+  color: rgb(218, 218, 218);
+  text-decoration: none;
+  /* Elimina la subrayado de los enlaces */
+}
+
+.menu a:hover {
+  background-color: darkred;
+  color: white;
+  /* Cambia el color del texto al pasar el ratón */
+}
+
+a:hover {
+  background-color: darkred;
+}
+
+h1 h2 h3 h4 h5 h6 p li {
+  color: blanchedalmond;
+  text-align: center;
+}
+
+.div2 {
+  padding: 1%;
+  width: 48%;
+  height: 500px;
+  background-color: rgb(46, 46, 46);
+  float: left;
+  transition: background-color 0.3s;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  text-align: center;
+}
+
+.div2 img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.div2:hover {
+  background-color: black;
+}
+
+.mecanico {
+  padding: 20px;
+  width: 30%;
+  background-color: rgb(46, 46, 46);
+  margin: 20px;
+  text-align: center;
+}
+
+.mecanico img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.mecanico:hover {
+  background-color: black;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-row {
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(90, 90, 90);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.form-group button:hover {
+  background-color: #2980b9;
+}
+
+img {
+  text-align: center;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container {
+  width: 48%;
+}
+
+.map {
+  width: 48%;
+}
+
+footer {
+  background-color: rgb(90, 90, 90);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.footerinfo {
+  text-align: center;
+}
+
+.footerinfo img {
+  text-align: center;
+  max-width: 100px;
+  height: auto;
+  margin-top: 10px;
+}

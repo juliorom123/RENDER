@@ -3,7 +3,7 @@ const app = express()
 
 
 app.get('/', function (req, res) {
-  res.sendFile(path.resolve("Index.html"))
+  res.send('Hello World')
 })
 
 
